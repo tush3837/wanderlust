@@ -19,7 +19,7 @@ services:
     ports:
       - 27017:27017
     volumes:
-      - ./backend/data:/data/db
+      - ./backend/data:/data/
 
 volumes:
   data:
